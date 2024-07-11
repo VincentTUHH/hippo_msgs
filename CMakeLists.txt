@@ -36,8 +36,6 @@ find_package(geometry_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/AnchorPose.msg"
-  "msg/AnchorPoses.msg"
   "msg/AngularVelocity.msg"
   "msg/BoolStamped.msg"
   "msg/DepthStamped.msg"
@@ -45,7 +43,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EscVoltages.msg"
   "msg/Float64Stamped.msg"
   "msg/Int64Stamped.msg"
-  "msg/ModemOut.msg"
   "msg/NewtonGripperCommand.msg"
   "msg/Path.msg"
   "msg/PathFollowerDebug.msg"
