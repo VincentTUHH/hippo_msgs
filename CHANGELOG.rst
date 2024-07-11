@@ -2,8 +2,8 @@
 Changelog for package hippo_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.1 (2024-07-11)
+------------------
 * moved acoustic related msgs to acoustic_msgs
 * removed estimator msgs
 * add BoolStamped
