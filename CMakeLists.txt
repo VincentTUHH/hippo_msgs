@@ -46,8 +46,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NewtonGripperCommand.msg"
   "msg/Path.msg"
   "msg/PathFollowerDebug.msg"
+  "msg/PoseStampedNumbered.msg"
   "msg/RangeMeasurement.msg"
   "msg/RangeMeasurementArray.msg"
+  "msg/VectorError.msg"
   "srv/SetAxis.srv"
   "srv/SetPath.srv"
   DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
